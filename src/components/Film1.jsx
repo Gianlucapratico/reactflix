@@ -19,7 +19,7 @@ function Film1() {
   return (
     <div className="px-4 py-4 bg-dark text-white">
       <h4 className="fs-2">Trending Now</h4>
-      <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-6 mb-4 no-gutters text-center">
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-6 mb-4 no-gutters text-center">
         {data ? (
           data.slice(0, 6).map((movie) => (
             <div key={movie.imdbID} className="col mb-2 px-1">
